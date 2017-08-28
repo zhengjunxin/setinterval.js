@@ -1,0 +1,20 @@
+{
+  "name": "setinterval.js",
+  "version": "0.0.1",
+  "description": "accurate setInterval",
+  "main": "src/index.js",
+  "author": "zhengjunxin",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.5.5"
+  },
+  "scripts": {
+    "dev": "webpack -w",
+    "pro": "NODE_ENV=production webpack",
+    "build": "npm run pro",
+    "prepublishOnly": "npm run build"
+  }
+}
